@@ -1,0 +1,132 @@
+* {margin:0;padding:0}
+a {color:#963}
+a:hover {color:#C60}
+body {background:#D7EE96;color:#444;font:normal 11px Arial,Helvetica,sans-serif}
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+.title {font-size:24px}
+p,code,ul {padding-bottom:1.2em}
+h1 {font:normal 14px Arial,Helvetica,sans-serif;margin-bottom:4px}
+h1,h2,h3 {padding-top:6px;color:#126DA2}
+.clear {clear:both}
+/* structure */
+.container {background:#FFF;font-size:1.2em;margin:0 auto;padding:0 10px 10px;width:1015px}
+/* header */
+.top {background:url(images/clouds.jpg) repeat-x;padding:90px 10px 0}
+/* title */
+.header {background:#FFF;font-size:14px;height:215px;margin:0 auto;padding:10px 10px 5px;width:1015px}
+#logo {width:1015px;height:215px;margin:0 auto;background:url(images/banner-final_1015px.png) no-repeat left top}
+#logo h1, #logo h2 {margin:0;padding:0;text-transform:lowercase}
+#logo h1 {padding:20px 5px 0 400px;font-size:32px;color:#fff}
+#logo h2 {padding:0 0 0 400px;font-size:18px;color:#0272BA}
+#logo a {color:#fff}
+/* navigation */
+.navigation {background:#D9E1E5 url(images/menu.gif);border:1px solid #DFEEF7;height:41px}
+.navigation a {background:#D9E1E5 url(images/menu.gif);border-right:1px solid #fff;color:#fff;display:block;float:left;font:bold 1.1em sans-serif;line-height:41px;padding:0 20px;text-decoration:none}
+.navigation a:hover {background:#319EDD;color:#fff;text-decoration:underline}
+/* main */
+/* sub navigation */
+.sidenav {float:right;width:210px}
+.sidenav h2 {color:#5A5A43;font-size:1em;line-height:30px;margin:0;padding-left:12px}
+.sidenav ul {padding:0;border-top:1px solid #EAEADA}
+.sidenav li {border-bottom:1px solid #EAEADA}
+.sidenav li a {font-size:1.1em;color:#554;display:block;padding:8px 0 8px 5%;text-decoration:none;width:95%}
+.sidenav li a:hover {background:#DCEFFF;color:#654}
+/* content */
+.content {float:left;margin:10px 0;padding:0 16px;width:900px;}
+.content {list-style-type:circle;}
+/* footer */
+#footer {background:url(images/bgfooter.gif) repeat-x;color:#CADA99;font:bold 10px Arial,Helvetica,sans-serif;text-align:right;height:60px;padding-top:30px;}
+#footer p {padding:0 21px;margin:0}
+#footer a, #footer a:hover {color:#FFF}
+.fleft {float:left}
+.fright {float:right}
+.fcenter {float:none;text-align:center}
+
+/*google maps embed*/
+#map_format {padding:30px}
+#map_canvas {height:400px;width:600px;background-color::#ccc;}
+
+/*Reviews formatting*/
+.reviews_content
+{
+font: italic 14px Berlin Sans FB, Arial, Helvetica;
+margin-left: 30px;
+width: 800px;
+}
+
+/*Not being used. For setting left margin for reviewer details*/
+.reviews_details1
+{
+font: normal 14px Berlin Sans FB, Arial, Helvetica;
+margin-left: 550px;
+
+}
+
+/*Currently active review details setter*/
+.reviews_details
+{
+font: normal 14px Berlin Sans FB, Arial, Helvetica;
+margin-right: 150px;
+text-align: right;
+
+}
+
+.reviews_extra
+{
+font: normal 14px Berlin Sans FB, Arial, Helvetica;
+margin-left: 15px;
+}
+
+.facebook_positioning
+{
+align:right;
+position:relative;
+top:-330px;
+left:850px;
+}
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  background: transparent url(images/nav_bg.png) repeat-x top left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px 0 20px;
+}
+
+#cssmenu li a:hover {
+  color: #FFFFFF;
+  height: 22px;
+  background: transparent url(images/nav_bg.png) 0px -30px no-repeat;
+}
+
+#cssmenu li.active a {
+  display: inline;
+  height: 22px;
+  background: transparent url(images/nav_bg.png) 0px -30px no-repeat;
+  float: left;
+  margin: 0;
+}
